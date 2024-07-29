@@ -1,54 +1,53 @@
 /* Google Fonts */
-@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap");
 
-*{
+* {
   margin: 0;
   box-sizing: border-box;
 }
-html{
+html {
   scroll-behavior: smooth;
 }
 
-body{
+body {
   font-family: "Inter", sans-serif;
 }
 
 /* Shared style  */
-.container{
+.container {
   max-width: 1440px;
   margin: 0 auto;
 }
-.display-flex{
+.display-flex {
   display: flex;
 }
-.text-center{
+.text-center {
   text-align: center;
 }
-.background-color{
+.background-color {
   background-color: rgb(12, 13, 14);
 }
-.background-color-2{
+.background-color-2 {
   background-color: rgb(46, 43, 43);
 }
 
-
 /* Nav Style */
-.circle{
+.circle {
   width: 36px;
   height: 36px;
-  background-color:#E6533C;
+  background-color: #e6533c;
   border-radius: 50%;
 }
 
-header nav{
+header nav {
   max-width: 1440px;
-  margin:0 auto;
+  margin: 0 auto;
 }
-.light-gray{
+.light-gray {
   color: rgba(255, 255, 255, 0.5);
 }
-.btn-primary{
-  background-color: #E6533C;
+.btn-primary {
+  background-color: #e6533c;
   padding: 16px 35px;
   border: none;
   border-radius: 42px;
@@ -56,7 +55,7 @@ header nav{
   font-size: 1rem;
   font-weight: 600;
 }
-.btn-secondary{
+.btn-secondary {
   background-color: black;
   padding: 16px 35px;
   border: 1px solid rgb(153, 153, 153);
@@ -65,25 +64,23 @@ header nav{
   font-size: 1rem;
   font-weight: 600;
 }
-nav{
+nav {
   align-items: center;
   justify-content: space-between;
   padding: 30px 0;
 }
-.nav-title{
-  color: #E6533C;
+.nav-title {
+  color: #e6533c;
   font-size: 2.1rem;
   margin: 10px;
-  
 }
-.nav-desc li{
+.nav-desc li {
   list-style: none;
-  
 }
-.nav-desc li a{
+.nav-desc li a {
   color: rgb(255, 255, 255);
   text-decoration: none;
-  margin: 0 40px 0 5px ;
+  margin: 0 40px 0 5px;
 }
 .nav-item ul i {
   font-size: 27px;
@@ -92,7 +89,7 @@ nav{
   margin: 47px;
   display: none;
 }
-.nav-item ul{
+.nav-item ul {
   align-items: center;
   height: 40px;
   margin: 0;
@@ -101,41 +98,41 @@ nav{
   background-color: rgb(0, 0, 0);
   border: 1px solid rgba(143, 143, 143, 0.4);
 }
-#nav-list-1 a{
-  background-color: #E6533C;
+#nav-list-1 a {
+  background-color: #e6533c;
   padding: 8px 20px;
   border-radius: 20px;
-  
 }
 
 /* Banner Style Start */
-.banner-container{
+.banner-container {
   max-width: 1440px;
   margin: 0 auto;
   justify-content: space-between;
   align-items: center;
 }
-.banner-text h1{
+.banner-text h1 {
   font-size: 5rem;
   color: white;
 }
-.banner-number-1, .banner-number-2{
+.banner-number-1,
+.banner-number-2 {
   width: 160px;
-  background-color:rgba(124, 124, 124, 0.4);
+  background-color: rgba(124, 124, 124, 0.4);
   background-blend-mode: overlay;
   padding: 10px;
-  
 }
-.banner-number-1 h1, .banner-number-2 h1{
+.banner-number-1 h1,
+.banner-number-2 h1 {
   color: white;
 }
-.img{
+.img {
   position: relative;
   background-image: url(../images/Images\ 2.png);
   width: 350px;
   height: 580px;
 }
-.banner-number-2{
+.banner-number-2 {
   align-items: center;
   justify-content: space-between;
   display: flex;
@@ -144,138 +141,139 @@ nav{
   left: -90px;
   border-radius: 8px;
 }
-.banner-number-1{
+.banner-number-1 {
   position: absolute;
   left: 220px;
   top: 110px;
   border-radius: 10px;
 }
-.banner-text{
+.banner-text {
   display: flex;
   flex-direction: column;
   gap: 40px;
 }
 
- /* Habits Section Start*/
- .habits-container{
+/* Habits Section Start*/
+.habits-container {
   max-width: 1440px;
   margin: 100px auto;
- }
- .habit-title{
+}
+.habit-title {
   font-size: 3rem;
   color: white;
- }
- .habit-desc{
-  margin-bottom: 50px;
- }
- .habit-item img{
-  border-radius: 50%;
- }
-.habit-item{
-  width: 240px;
-  
 }
-.habit-img{
+.habit-desc {
+  margin-bottom: 50px;
+}
+.habit-item img {
+  border-radius: 50%;
+}
+.habit-item {
+  width: 240px;
+}
+.habit-img {
   justify-content: space-around;
 }
-.habit-item h3{
+.habit-item h3 {
   color: white;
   margin-top: 30px;
 }
-.habit-item p{
+.habit-item p {
   font-size: 14px;
 }
-.extra-mile-img{
+.extra-mile-img {
   width: 400px;
 }
-.extra-mile-img img{
+.extra-mile-img img {
   width: 100%;
   border-radius: 18px;
 }
-.extra-mile-container{
+.extra-mile-container {
   margin-bottom: 100px;
   background-color: rgb(65, 65, 65);
   padding: 41px 54px;
   border-radius: 18px;
   justify-content: space-between;
 }
-.extra-mile-text{
+.extra-mile-text {
   width: 50%;
   display: flex;
   flex-direction: column;
   justify-content: space-around;
 }
-.extra-mile-text h2{
+.extra-mile-text h2 {
   font-size: 3rem;
   color: white;
 }
- /* BMI Calculator Section Start  */
- table{
+/* BMI Calculator Section Start  */
+table {
   border-collapse: collapse;
- }
- table tr , th,td{
+}
+table tr,
+th,
+td {
   border: 1px solid rgb(95, 95, 95);
- 
- }
- table tr th, td{
+}
+table tr th,
+td {
   padding: 15px 55px 15px 20px;
- }
- th{
+}
+th {
   color: white;
- }
- td{
+}
+td {
   color: rgba(255, 255, 255, 0.5);
- }
- .bmi-calculate h1, .bmi-chart h1{
+}
+.bmi-calculate h1,
+.bmi-chart h1 {
   color: white;
- }
- .bmi-container{
+}
+.bmi-container {
   justify-content: space-between;
   gap: 0px;
- }
+}
 
-.calculate-input{
+.calculate-input {
   font-size: 16px;
   display: grid;
   grid-template-columns: repeat(2, 1fr);
   grid-template-rows: repeat(3, 53px);
   gap: 15px;
 }
-.select{
-  grid-column:span 2;
+.select {
+  grid-column: span 2;
 }
-.calculate-input input, .calculate-input select {
+.calculate-input input,
+.calculate-input select {
   border-radius: 10px;
   border: none;
   font-size: 20px;
   padding: 0 32px;
   background-color: rgb(82, 82, 82);
-
 }
-.calculate-container{
-  align-items: center;
- 
-}
-.bmi-container{
+.calculate-container {
   align-items: center;
 }
-.bmi-calculate-container{
+.bmi-container {
+  align-items: center;
+}
+.bmi-calculate-container {
   padding: 80px 0;
 }
 
 /* Team Section Start */
-.team-member{
+.team-member {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   grid-template-rows: repeat(2, 380px);
   gap: 20px;
 }
 
-.team-member{
-  padding:20px;
+.team-member {
+  padding: 20px;
   border-radius: 16px;
 }
-.team-img-1{
+.team-img-1 {
   background-image: url(../images/trainer1.png);
   background-repeat: no-repeat;
   background-size: cover;
@@ -284,219 +282,263 @@ nav{
   background-blend-mode: overlay;
   border-radius: 16px;
 }
-.team-img-2{
+.team-img-2 {
   background-image: url(../images/trainer2.png);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
-   border-radius: 16px;
-   background-color: rgba(0, 0, 0, 0.288);
+  border-radius: 16px;
+  background-color: rgba(0, 0, 0, 0.288);
   background-blend-mode: overlay;
 }
-.team-img-3{
+.team-img-3 {
   background-image: url(../images/trainer3.png);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
-   border-radius: 16px;
-   background-color: rgba(0, 0, 0, 0.288);
+  border-radius: 16px;
+  background-color: rgba(0, 0, 0, 0.288);
   background-blend-mode: overlay;
 }
-.team-img-4{
+.team-img-4 {
   background-image: url(../images/trainer4.png);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
-   border-radius: 16px;
-   background-color: rgba(0, 0, 0, 0.288);
+  border-radius: 16px;
+  background-color: rgba(0, 0, 0, 0.288);
   background-blend-mode: overlay;
 }
-.team-img-5{
+.team-img-5 {
   background-image: url(../images/trainer5.png);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
-   border-radius: 16px;
-   background-color: rgba(0, 0, 0, 0.288);
+  border-radius: 16px;
+  background-color: rgba(0, 0, 0, 0.288);
   background-blend-mode: overlay;
 }
-.team-img-6{
+.team-img-6 {
   background-image: url(../images/trainer6.png);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
-   border-radius: 16px;
-   background-color: rgba(0, 0, 0, 0.288);
+  border-radius: 16px;
+  background-color: rgba(0, 0, 0, 0.288);
   background-blend-mode: overlay;
 }
 
-.team-member h3{
+.team-member h3 {
   color: white;
 }
-.team-member div{
+.team-member div {
   display: flex;
   flex-direction: column;
   justify-content: end;
   padding: 25px;
 }
-.team-member div p{
+.team-member div p {
   color: rgba(255, 255, 255, 0.5);
 }
-.team-container >div >h1{
+.team-container > div > h1 {
   padding-bottom: 25px;
-   color: white;
+  color: white;
 }
-.team-container >div >p{
+.team-container > div > p {
   padding-bottom: 25px;
-   color: white;
+  color: white;
 }
-.team-container{
+.team-container {
   margin-top: 80px;
   margin-bottom: 80px;
 }
 
 /* Footer Section  */
-.footer div{
+.footer div {
   width: 28%;
 }
-.footer{
+.footer {
   height: 300px;
   justify-content: space-between;
 }
-.fitness-part{
+.fitness-part {
   display: flex;
   flex-direction: column;
   gap: 40px;
-  padding:50px 10px 0px 10px;
+  padding: 50px 10px 0px 10px;
 }
-.get-started-part, .get-started-part-2{
+.get-started-part,
+.get-started-part-2 {
   display: flex;
   flex-direction: column;
   gap: 20px;
-  padding:50px 10px 0px 10px;
+  padding: 50px 10px 0px 10px;
 }
-.footer div h1{
+.footer div h1 {
   color: white;
 }
-.footer div p, .footer div a{
+.footer div p,
+.footer div a {
   color: rgba(255, 255, 255, 0.5);
   text-decoration: none;
 }
-hr{
+hr {
   border: 1px solid rgba(255, 255, 255, 0.5);
 }
-.copyright p{
+.copyright p {
   font-size: 1.1rem;
   padding: 20px;
   color: rgba(255, 255, 255, 0.5);
 }
-@media screen and (max-width:576px) {
+/* Our service section start */
+.service-card img {
+  width: 100px;
+  height: 100px;
+  border-radius: 8px;
+  filter: grayscale(100%);
+}
+.our-service-section > h5,
+h1 {
+  color: white;
+  padding: 12px;
+}
+.service-container {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(1, 450px);
+  gap: 60px;
+  margin-bottom: 80px;
+}
+.service-card {
+  padding: 2.4rem;
+  border-radius: 15px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  margin-top: 40px;
+}
+.service-card > h2,
+p,
+a {
+  color: white;
+}
+
+/* Responsive for Mobile Devices */
+@media screen and (max-width: 576px) {
   .nav-item ul i {
     display: inline;
     margin: 0 20px;
-    
-  
   }
-  .nav-item ul{
-    background:none;
+  .nav-item ul {
+    background: none;
   }
-  .nav-desc li a{
+  .nav-desc li a {
     display: none;
   }
-  .nav-item ul{
+  .nav-item ul {
     border: none;
   }
-  .banner-container{
+  .banner-container {
     flex-direction: column;
     padding: 20px;
   }
-  .banner-text h1{
+  .banner-text h1 {
     font-size: 2rem;
   }
-  .banner-number-2{
+  .banner-number-2 {
     top: 400px;
     left: 0px;
   }
-  .banner-number-1{
+  .banner-number-1 {
     top: 70px;
     left: 180px;
   }
-  .banner-btn{
+  .banner-btn {
     display: flex;
     justify-content: space-around;
   }
 
   /* Habits Section Start*/
-  .habit-title{
+  .habit-title {
     font-size: 2rem;
   }
-  .habit-img{
+  .habit-img {
     flex-direction: column;
     align-items: center;
   }
-  .habit-item{
+  .habit-item {
     margin: 2.1rem;
   }
-  .habit-item img{
+  .habit-item img {
     width: 200px;
   }
 
   /* Extra mile section */
-  .extra-mile-container{
+  .extra-mile-container {
     flex-direction: column;
     gap: 30px;
+    padding: 22px;
+    margin-left: 25px;
+    margin-right: 25px;
   }
-  .extra-mile-text{
+  .extra-mile-text {
     width: 100%;
     gap: 20px;
   }
-  .btn-primary{
+  .btn-primary {
     width: 90%;
     margin: 0 auto;
   }
-  .extra-mile-img{
+  .extra-mile-img {
     width: 330px;
   }
-  .extra-mile-text a{
+  .extra-mile-text a {
     text-align: center;
   }
   /* Bmi section */
-  .bmi-container{
+  .bmi-container {
     flex-direction: column;
     gap: 45px;
-   
   }
 
-  .calculate-input input, .calculate-input select {
+  .calculate-input input,
+  .calculate-input select {
     border-radius: 10px;
     border: none;
     font-size: 16px;
     padding: 0 5px;
-  
   }
   /* .calculate-container{
     padding: 10px;
   } */
 
   /* Team Section start */
-  .team-member{
+  .team-member {
     display: grid;
     grid-template-columns: repeat(1, 1fr);
     grid-template-rows: repeat(4, 380px);
   }
-.team-member .team-img-1, .team-member .team-img-4{
-  display: none;
-}
+  .team-member .team-img-1,
+  .team-member .team-img-4 {
+    display: none;
+  }
 
-.footer{
-  flex-direction: column;
-  height: auto;
-}
-.footer div{
-  width: 90%;
-}
-hr{
-  margin-top: 20px;
-}
-  
+  .footer {
+    flex-direction: column;
+    height: auto;
+  }
+  .footer div {
+    width: 90%;
+  }
+  hr {
+    margin-top: 20px;
+  }
+
+  /* Our service section */
+  .service-container {
+    grid-template-columns: repeat(1, 1fr);
+    grid-template-rows: repeat(3, 450px);
+    gap: 0;
+    margin: 0 30px 80px 30px;
+  }
 }
