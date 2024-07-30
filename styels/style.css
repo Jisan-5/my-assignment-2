@@ -1,6 +1,14 @@
 /* Google Fonts */
 @import url("https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap");
 
+/* Font for style text */
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&family=Inter:wght@100..900&display=swap');
+
+.dancing-script-font {
+  font-family: "Dancing Script", cursive;
+}
+
+
 * {
   margin: 0;
   box-sizing: border-box;
