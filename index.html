@@ -13,9 +13,9 @@
     <link rel="stylesheet" href="./styels/style.css" />
   </head>
   <body class="background-color">
-    <header class="background-color-2">
+    <header class="linear-color">
       <!-- Navbar section Start -->
-      <nav class="display-flex">
+      <nav class="display-flex container">
         <div class="nav-logo">
           <h3 class="nav-title">Fitness</h3>
         </div>
@@ -24,14 +24,14 @@
             <li id="nav-list-1"><a href="">Home</a></li>
             <li><a href="">Service</a></li>
             <li><a href="#footer">Contact</a></li>
-            <li><a href="">About</a></li>
+            <li><a href="#about">About</a></li>
             <i class="fa-solid fa-bars"></i>
           </ul>
         </div>
       </nav>
 
       <!-- banner section Start -->
-      <div class="banner-container display-flex">
+      <div class="banner-container display-flex container">
         <div class="banner-text">
           <h1>
             Get body in<br />
@@ -66,7 +66,7 @@
     <main>
       <!-- Habit Section Start -->
 
-      <div class="habits-container">
+      <div class="habits-container container">
         <div class="habit-head">
           <h1 class="habit-title text-center">Change Your Habits</h1>
           <p class="habit-desc light-gray text-center">
@@ -107,7 +107,9 @@
       </div>
 
       <!-- Extra Mile Section -->
-      <div class="extra-mile-container display-flex container">
+      <div
+        class="extra-mile-container display-flex container background-color-2"
+      >
         <div class="extra-mile-text">
           <h2>Run an Extra Mile Easily</h2>
           <p class="light-gray">
@@ -120,6 +122,14 @@
         <div class="extra-mile-img">
           <img src="./images/run2.jpg" alt="" />
         </div>
+      </div>
+      <!-- Calculator head -->
+      <div class="calculator-head ">
+        <h1 class="container ">BMI Calculator</h1>
+        <p class="container light-gray">
+          We believe fitness should be accessible to everyone, everywhere,
+          regardless of income or access to a gym.
+        </p>
       </div>
 
       <!-- BMI Calculator Section Start -->
@@ -162,10 +172,10 @@
               <input type="text" placeholder="Height/cm" />
               <input type="text" placeholder="Weight/kg" />
               <input type="text" placeholder="age" />
-              <select name="" id="">
+              <select name="" id="" class="light-gray">
                 <option value="">Sex</option>
               </select>
-              <select name="" id="" class="select">
+              <select name="" id="" class="select light-gray">
                 <option value="Select an activity">Select an activity</option>
               </select>
               <a href=""><button class="btn-primary">Calculate</button></a>
@@ -175,7 +185,7 @@
       </div>
 
       <!-- Team section Start -->
-      <div class="team-container container">
+      <div class="team-container container" id="about">
         <div>
           <h1 class="text-center">Meet Our team</h1>
           <p class="text-center light-gray">
@@ -217,40 +227,40 @@
           <div class="service-card background-color-2">
             <img src="./images/challenge-27-thumbnail.webp" alt="" />
             <h2>Power Lifting</h2>
-            <p>
+            <p class="light-gray">
               High-intensity workouts that alternate between intense bursts os
               exercise and short recovery periods...
             </p>
-            <a href="">Read More</a>
+            <a href="" class="light-gray">Read More</a>
           </div>
           <div class="service-card background-color-2">
             <img src="./images/challanges.jpg" alt="" />
             <h2>Body Building</h2>
-            <p>
+            <p class="light-gray">
               Bodybuilding is a form of physical exercise and body modification
               involving intense, sustained weight training to develop a
               well-defined and muscular physique. ...
             </p>
-            <a href="">Read More</a>
+            <a href="" class="light-gray">Read More</a>
           </div>
           <div class="service-card background-color-2">
             <img src="./images/4e190c273155f9eba2dd2d266228886b.jpg" alt="" />
             <h2>Gym Fitness Class</h2>
-            <p>
+            <p class="light-gray">
               Gym fitness classes are structured group workouts led by certified
               instructors, designed to cater to various fitness levels and
               goals....
             </p>
-            <a href="">Read More</a>
+            <a href="" class="light-gray">Read More</a>
           </div>
         </div>
       </div>
     </main>
-    <footer class="background-color-2" id="footer">
+    <footer class="background-color-3" id="footer">
       <div>
         <div class="footer display-flex container">
           <div class="fitness-part">
-            <h1>Fitness</h1>
+            <h1 class="fitness-color">Fitness</h1>
             <p>
               We believe fitness should be accessible to everyone, everywhere,
               regardless of income or access to a gym. With hundreds of
