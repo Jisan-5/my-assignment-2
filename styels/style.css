@@ -84,7 +84,8 @@ nav {
 }
 .nav-title {
   color: #e6533c;
-  font-size: 2.1rem;
+  font-size: 2rem;
+  padding: 0;
   margin: 10px;
 }
 .nav-desc li {
@@ -194,10 +195,10 @@ nav {
   font-size: 14px;
 }
 .extra-mile-img {
-  max-width:400px;
+  max-width:100%;
 }
 .extra-mile-img img {
-  width: 100%;
+  width:100%;
   border-radius: 18px;
 }
 .extra-mile-container {
@@ -281,8 +282,7 @@ td {
 
 .calculator-head{
   max-width: 750px;
-  margin: 0 auto;
-  margin: 60px 0;
+  margin: 80px auto;
 }
 .calculator-head h1{
   padding: 0;
@@ -392,7 +392,7 @@ td {
   border-radius: 8px;
   filter: grayscale(100%);
 }
-.our-service-section > h5,
+.our-service-section > h3,
 h1 {
   color: white;
   padding: 12px;
