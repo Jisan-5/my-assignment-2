@@ -262,6 +262,7 @@ td {
 }
 .calculate-input input,
 .calculate-input select {
+  width: 100%;
   border-radius: 10px;
   border: none;
   font-size: 20px;
