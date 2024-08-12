@@ -492,7 +492,7 @@ hr {
   }
   .banner-container {
     flex-direction: column;
-    padding: 20px;
+    padding:5px;
   }
   .banner-text h1 {
     font-size: 2rem;
@@ -551,11 +551,11 @@ hr {
   }
 
   .btn-primary {
-    width: 170px;
+    width: 158px;
     padding: 20px;
   }
   .btn-secondary {
-    width: 170px;
+    width: 158px;
     padding: 20px;
   }
   .extra-mile-img {
