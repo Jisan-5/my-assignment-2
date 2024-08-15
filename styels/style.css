@@ -46,8 +46,8 @@ body {
 
 /* Nav Style */
 .circle {
-  width: 36px;
-  height: 36px;
+  width: 33px;
+  height: 33px;
   background-color: #e6533c;
   border-radius: 50%;
 }
@@ -551,7 +551,7 @@ hr {
   }
 
   .btn-primary {
-    width: 158px;
+    width: 100%;
     padding: 20px;
   }
   .btn-secondary {
